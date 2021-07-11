@@ -39,9 +39,11 @@
 
       <div id="work">
         <h1>About</h1>
+
+
         <div id="projects"></div>
 
-        <h2>I an incoming M.S. student in Electrical Engineering at Columbia.</h2>
+          <h3>I an incoming M.S. student in Electrical Engineering at Columbia. I hold a B.S. in Computer Engineering from the University of Illinois at Urbana-Champaign. </h3>
 
         <p></p>
 
@@ -108,12 +110,37 @@
         <h1>Forks.</h1>
         <div class="projects" id="forks_section"></div>
       </div>
+
       <div id="blog_section">
         <h1>Blog.</h1>
-        <div id="blogs"></div>
+        <div id="blogs">
+          
+          <a href="./blog/blogTemplate.html" target="_blank">
+            <section>
+                <img src="hk_bk.jpg">
+                <div class="blog_container">
+                    <div class="section_title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                    <div class="about_section">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed enim eros, dignissim vel mattis eu, tempor eu elit. Ut et justo sapien. Morbi fermentum dui et leo iaculis, nec maximus elit gravida.
+                    </div>
+                </div>
+            </section>
+          </a>
+
+            
+        </div>
+
+        
+
+
+
+
+        
+        
+
       </div>
       <div id="footer">
-        <a href="https://github.com/imfunniee" target="_blank">made on earth by a human</a>
+        <a href="https://github.com/imfunniee" target="_blank">  blank for now</a>
       </div>
     </div>
     <script type="text/javascript">
@@ -126,6 +153,10 @@
           document.getElementById("loading").style.display = "none";
         }, 800);
       }, 1500);
+
+      /*
+      // code for checkign if there is a blog, if not then dont show anything
+      // doesnt work cus cross-origin policy :) CS 461 hehe
       $.getJSON("blog.json", function(blog) {
         blog = blog || [];
         if (blog.length == 0) {
@@ -150,6 +181,7 @@
       }).fail(function() {
         return (document.getElementById("blog_section").style.display = "none");
       });
+      */
     </script>
 
     <script>
