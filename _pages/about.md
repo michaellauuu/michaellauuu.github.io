@@ -33,7 +33,7 @@ I am Michael (Wai Tak) Lau, currently a second year CS PhD student at Columbia U
 </p>
 
 <p style="font-size: 18px;"> 
-My research interests are in machine learning in healthcare, multimodal models and representaiton learning. I am interested in improving multimodal representation that will lead to better clinical tasks performance, including disease diagnosis, treatment recommendation and progression prediciton. 
+My research interests are in machine learning in healthcare, multimodal models and representaiton learning. I am interested in improving multimodal representaiton that will lead to better clinical tasks performance, including disease diagnosis, treatment recommendation and progression prediciton. 
 </p>
 
 
