@@ -4,7 +4,7 @@ window.op =
     (window.op.q = window.op.q || []).push(args);
   };
 window.op("init", {
-  clientId: "{{ site.openpanel_analytics }}",
+  clientId: "",
   trackScreenViews: true,
   trackOutgoingLinks: true,
   trackAttributes: true,
